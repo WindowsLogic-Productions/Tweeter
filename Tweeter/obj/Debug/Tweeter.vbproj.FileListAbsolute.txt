@@ -1,0 +1,24 @@
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\bin\Debug\Tweeter.exe
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\bin\Debug\Tweeter.pdb
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\bin\Debug\Tweeter.xml
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\obj\Debug\Tweeter.vbprojAssemblyReference.cache
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\obj\Debug\Tweeter.TweeterMain.resources
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\obj\Debug\Tweeter.Resources.resources
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\obj\Debug\Tweeter.vbproj.GenerateResource.cache
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\obj\Debug\Tweeter.vbproj.CoreCompileInputs.cache
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\obj\Debug\Tweeter.exe
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\obj\Debug\Tweeter.xml
+C:\Users\Tim\AppData\Local\Temporary Projects\Tweeter\obj\Debug\Tweeter.pdb
+I:\Projects\Tweeter\Tweeter\bin\Debug\Tweeter.exe
+I:\Projects\Tweeter\Tweeter\bin\Debug\Tweeter.pdb
+I:\Projects\Tweeter\Tweeter\bin\Debug\Tweeter.xml
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.vbprojAssemblyReference.cache
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.TweeterAbout.resources
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.TweeterMain.resources
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.Resources.resources
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.vbproj.GenerateResource.cache
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.vbproj.CoreCompileInputs.cache
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.exe
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.xml
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.pdb
+I:\Projects\Tweeter\Tweeter\obj\Debug\Tweeter.TweeterShortcuts.resources
