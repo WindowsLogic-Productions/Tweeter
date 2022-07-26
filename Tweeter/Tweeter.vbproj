@@ -154,6 +154,12 @@
     <Compile Include="SettingsPanel.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SettingsPanelPersonalise.Designer.vb">
+      <DependentUpon>SettingsPanelPersonalise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsPanelPersonalise.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TweeterDedicate.Designer.vb">
       <DependentUpon>TweeterDedicate.vb</DependentUpon>
     </Compile>
@@ -239,6 +245,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsPanel.resx">
       <DependentUpon>SettingsPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPanelPersonalise.resx">
+      <DependentUpon>SettingsPanelPersonalise.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TweeterDedicate.resx">
       <DependentUpon>TweeterDedicate.vb</DependentUpon>
