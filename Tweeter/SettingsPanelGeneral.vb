@@ -131,7 +131,7 @@
         End If
     End Sub
 
-    Private Sub CustomColourButton_Click(sender As Object, e As EventArgs) Handles CustomColourButton.Click
+    Private Sub CustomColourButton_Click(sender As Object, e As EventArgs)
         If ColorDialog1.ShowDialog() = DialogResult.OK Then
             My.Settings.CustomColour = ColorDialog1.Color
             Me.BackColor = My.Settings.CustomColour

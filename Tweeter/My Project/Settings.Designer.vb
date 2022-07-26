@@ -92,7 +92,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("0, 138, 255")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0, 100, 190")>  _
         Public Property CustomColour() As Global.System.Drawing.Color
             Get
                 Return CType(Me("CustomColour"),Global.System.Drawing.Color)

@@ -12,7 +12,7 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="CustomColour" Type="System.Drawing.Color" Scope="User">
-      <Value Profile="(Default)">0, 138, 255</Value>
+      <Value Profile="(Default)">0, 100, 190</Value>
     </Setting>
     <Setting Name="UseTweetdeck" Type="System.String" Scope="User">
       <Value Profile="(Default)">1</Value>
