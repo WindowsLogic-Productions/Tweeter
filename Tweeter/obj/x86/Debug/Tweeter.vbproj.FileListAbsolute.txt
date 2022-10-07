@@ -156,3 +156,4 @@ J:\Projects\Tweeter\Tweeter\obj\x86\Debug\Tweeter.TweeterHelp.resources
 J:\Projects\Tweeter\Tweeter\obj\x86\Debug\Tweeter.TweeterProfile.resources
 J:\Projects\Tweeter\Tweeter\obj\x86\Debug\Tweeter.SettingsPanelGeneral.resources
 J:\Projects\Tweeter\Tweeter\obj\x86\Debug\Tweeter.TweeterWhatsNew.resources
+J:\Projects\Tweeter\Tweeter\obj\x86\Debug\Tweeter.SettingsPanelPersonalise.resources

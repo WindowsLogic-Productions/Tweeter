@@ -27,21 +27,6 @@ Partial Class SettingsPanelPersonalise
         Me.BackButton = New System.Windows.Forms.Button()
         Me.TitleLabel = New System.Windows.Forms.Label()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.GPSetLabel = New System.Windows.Forms.Label()
-        Me.GPSetButton = New System.Windows.Forms.Button()
-        Me.GPText = New System.Windows.Forms.TextBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.UpdateBox = New System.Windows.Forms.GroupBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.EnableUpdates = New System.Windows.Forms.RadioButton()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.DisableUpdates = New System.Windows.Forms.RadioButton()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.NothingButton = New System.Windows.Forms.RadioButton()
         Me.SystemTrayButton = New System.Windows.Forms.RadioButton()
@@ -63,15 +48,15 @@ Partial Class SettingsPanelPersonalise
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.GPSetLabel = New System.Windows.Forms.Label()
+        Me.GPSetButton = New System.Windows.Forms.Button()
+        Me.GPText = New System.Windows.Forms.TextBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
-        Me.TabPage4.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage2.SuspendLayout()
-        Me.UpdateBox.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage3.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -81,6 +66,9 @@ Partial Class SettingsPanelPersonalise
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage4.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -120,172 +108,11 @@ Partial Class SettingsPanelPersonalise
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Controls.Add(Me.TabPage4)
-        Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Location = New System.Drawing.Point(12, 59)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(417, 205)
         Me.TabControl1.TabIndex = 13
-        '
-        'TabPage4
-        '
-        Me.TabPage4.Controls.Add(Me.GroupBox5)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(409, 179)
-        Me.TabPage4.TabIndex = 3
-        Me.TabPage4.Text = "Profile"
-        Me.TabPage4.UseVisualStyleBackColor = True
-        '
-        'GroupBox5
-        '
-        Me.GroupBox5.Controls.Add(Me.GPSetLabel)
-        Me.GroupBox5.Controls.Add(Me.GPSetButton)
-        Me.GroupBox5.Controls.Add(Me.GPText)
-        Me.GroupBox5.Controls.Add(Me.PictureBox6)
-        Me.GroupBox5.Controls.Add(Me.Label5)
-        Me.GroupBox5.Location = New System.Drawing.Point(9, 84)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(379, 68)
-        Me.GroupBox5.TabIndex = 4
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Profile"
-        '
-        'GPSetLabel
-        '
-        Me.GPSetLabel.AutoSize = True
-        Me.GPSetLabel.Location = New System.Drawing.Point(309, 42)
-        Me.GPSetLabel.Name = "GPSetLabel"
-        Me.GPSetLabel.Size = New System.Drawing.Size(61, 13)
-        Me.GPSetLabel.TabIndex = 4
-        Me.GPSetLabel.Text = "Profile set!"
-        Me.GPSetLabel.Visible = False
-        '
-        'GPSetButton
-        '
-        Me.GPSetButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.GPSetButton.Location = New System.Drawing.Point(228, 37)
-        Me.GPSetButton.Name = "GPSetButton"
-        Me.GPSetButton.Size = New System.Drawing.Size(75, 23)
-        Me.GPSetButton.TabIndex = 3
-        Me.GPSetButton.Text = "Set"
-        Me.GPSetButton.UseVisualStyleBackColor = True
-        '
-        'GPText
-        '
-        Me.GPText.Location = New System.Drawing.Point(94, 37)
-        Me.GPText.Name = "GPText"
-        Me.GPText.Size = New System.Drawing.Size(128, 22)
-        Me.GPText.TabIndex = 2
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.Tweeter.My.Resources.Resources.Social
-        Me.PictureBox6.Location = New System.Drawing.Point(6, 21)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox6.TabIndex = 1
-        Me.PictureBox6.TabStop = False
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(41, 21)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(257, 13)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "Set your profile username to access all of Twitter."
-        '
-        'TabPage2
-        '
-        Me.TabPage2.Controls.Add(Me.UpdateBox)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(409, 179)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Updates"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'UpdateBox
-        '
-        Me.UpdateBox.Controls.Add(Me.PictureBox1)
-        Me.UpdateBox.Controls.Add(Me.PictureBox2)
-        Me.UpdateBox.Controls.Add(Me.EnableUpdates)
-        Me.UpdateBox.Controls.Add(Me.Label1)
-        Me.UpdateBox.Controls.Add(Me.DisableUpdates)
-        Me.UpdateBox.Controls.Add(Me.Label2)
-        Me.UpdateBox.Location = New System.Drawing.Point(6, 6)
-        Me.UpdateBox.Name = "UpdateBox"
-        Me.UpdateBox.Size = New System.Drawing.Size(376, 98)
-        Me.UpdateBox.TabIndex = 14
-        Me.UpdateBox.TabStop = False
-        Me.UpdateBox.Text = "Update Settings"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Tweeter.My.Resources.Resources.Updates_On
-        Me.PictureBox1.Location = New System.Drawing.Point(6, 21)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 8
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.Tweeter.My.Resources.Resources.Updates_Off
-        Me.PictureBox2.Location = New System.Drawing.Point(6, 59)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox2.TabIndex = 10
-        Me.PictureBox2.TabStop = False
-        '
-        'EnableUpdates
-        '
-        Me.EnableUpdates.AutoSize = True
-        Me.EnableUpdates.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.EnableUpdates.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.EnableUpdates.Location = New System.Drawing.Point(44, 21)
-        Me.EnableUpdates.Name = "EnableUpdates"
-        Me.EnableUpdates.Size = New System.Drawing.Size(165, 18)
-        Me.EnableUpdates.TabIndex = 1
-        Me.EnableUpdates.Text = "Enable automatic updates"
-        Me.EnableUpdates.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(41, 40)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(179, 13)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Check for updates when starting."
-        '
-        'DisableUpdates
-        '
-        Me.DisableUpdates.AutoSize = True
-        Me.DisableUpdates.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.DisableUpdates.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.DisableUpdates.Location = New System.Drawing.Point(44, 59)
-        Me.DisableUpdates.Name = "DisableUpdates"
-        Me.DisableUpdates.Size = New System.Drawing.Size(168, 18)
-        Me.DisableUpdates.TabIndex = 2
-        Me.DisableUpdates.Text = "Disable automatic updates"
-        Me.DisableUpdates.UseVisualStyleBackColor = True
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label2.Location = New System.Drawing.Point(41, 78)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(141, 13)
-        Me.Label2.TabIndex = 11
-        Me.Label2.Text = "Do not check for updates."
         '
         'Label6
         '
@@ -483,22 +310,91 @@ Partial Class SettingsPanelPersonalise
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.Tweeter.My.Resources.Resources.Personalisation
         Me.PictureBox4.Location = New System.Drawing.Point(6, 21)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox4.Size = New System.Drawing.Size(157, 140)
         Me.PictureBox4.TabIndex = 4
         Me.PictureBox4.TabStop = False
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(41, 21)
+        Me.Label3.Location = New System.Drawing.Point(169, 21)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(222, 13)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Set the colour of your Tweeter experience."
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Controls.Add(Me.GroupBox5)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(409, 179)
+        Me.TabPage4.TabIndex = 5
+        Me.TabPage4.Text = "Profile"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.GPSetLabel)
+        Me.GroupBox5.Controls.Add(Me.GPSetButton)
+        Me.GroupBox5.Controls.Add(Me.GPText)
+        Me.GroupBox5.Controls.Add(Me.PictureBox6)
+        Me.GroupBox5.Controls.Add(Me.Label5)
+        Me.GroupBox5.Location = New System.Drawing.Point(6, 6)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(397, 81)
+        Me.GroupBox5.TabIndex = 5
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Profile"
+        '
+        'GPSetLabel
+        '
+        Me.GPSetLabel.AutoSize = True
+        Me.GPSetLabel.Location = New System.Drawing.Point(301, 52)
+        Me.GPSetLabel.Name = "GPSetLabel"
+        Me.GPSetLabel.Size = New System.Drawing.Size(61, 13)
+        Me.GPSetLabel.TabIndex = 4
+        Me.GPSetLabel.Text = "Profile set!"
+        Me.GPSetLabel.Visible = False
+        '
+        'GPSetButton
+        '
+        Me.GPSetButton.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.GPSetButton.Location = New System.Drawing.Point(220, 47)
+        Me.GPSetButton.Name = "GPSetButton"
+        Me.GPSetButton.Size = New System.Drawing.Size(75, 23)
+        Me.GPSetButton.TabIndex = 3
+        Me.GPSetButton.Text = "Set"
+        Me.GPSetButton.UseVisualStyleBackColor = True
+        '
+        'GPText
+        '
+        Me.GPText.Location = New System.Drawing.Point(86, 47)
+        Me.GPText.Name = "GPText"
+        Me.GPText.Size = New System.Drawing.Size(128, 22)
+        Me.GPText.TabIndex = 2
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global.Tweeter.My.Resources.Resources.Social
+        Me.PictureBox6.Location = New System.Drawing.Point(6, 21)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox6.TabIndex = 1
+        Me.PictureBox6.TabStop = False
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(41, 21)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(257, 13)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "Set your profile username to access all of Twitter."
         '
         'SettingsPanelPersonalise
         '
@@ -520,15 +416,6 @@ Partial Class SettingsPanelPersonalise
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
-        Me.TabPage4.ResumeLayout(False)
-        Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage2.ResumeLayout(False)
-        Me.UpdateBox.ResumeLayout(False)
-        Me.UpdateBox.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage3.ResumeLayout(False)
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
@@ -540,6 +427,10 @@ Partial Class SettingsPanelPersonalise
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage4.ResumeLayout(False)
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -554,21 +445,6 @@ Partial Class SettingsPanelPersonalise
     Friend WithEvents CustomColourButton As Button
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TabPage4 As TabPage
-    Friend WithEvents GroupBox5 As GroupBox
-    Friend WithEvents GPSetLabel As Label
-    Friend WithEvents GPSetButton As Button
-    Friend WithEvents GPText As TextBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents TabPage2 As TabPage
-    Friend WithEvents UpdateBox As GroupBox
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents EnableUpdates As RadioButton
-    Friend WithEvents Label1 As Label
-    Friend WithEvents DisableUpdates As RadioButton
-    Friend WithEvents Label2 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents NothingButton As RadioButton
     Friend WithEvents SystemTrayButton As RadioButton
@@ -584,4 +460,11 @@ Partial Class SettingsPanelPersonalise
     Friend WithEvents Button1 As Button
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label3 As Label
+    Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents GPSetLabel As Label
+    Friend WithEvents GPSetButton As Button
+    Friend WithEvents GPText As TextBox
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents Label5 As Label
 End Class
