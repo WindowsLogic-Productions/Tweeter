@@ -1,7 +1,7 @@
 <img src="https://windowslogic.co.uk/img/tweeter.png" width="250"></img>
 
 # About Tweeter
-Tweeter is a small Gecko-based application for using Twitter easily on your Windows computer. I have made this open-source as I would like people to help on this project and add new features etc.
+Tweeter was a small Gecko-based application for using Twitter easily on your Windows computer. I have made this open-source as I would like people to help on this project and add new features etc.
 
 The goal is to create a nice application for using Twitter without the need of a browser.
 
